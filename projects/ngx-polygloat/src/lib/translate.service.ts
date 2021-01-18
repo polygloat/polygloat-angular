@@ -1,6 +1,6 @@
 import {EventEmitter, Injectable} from '@angular/core';
 import {from, Observable} from 'rxjs';
-import {Polygloat} from "polygloat";
+import {Polygloat} from "@polygloat/core";
 import {PolygloatConfig} from "./polygloatConfig";
 
 @Injectable()

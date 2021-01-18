@@ -1,16 +1,13 @@
 {
-  "name": "ngx-polygloat",
-  "version": "0.0.0",
+  "name": "@polygloat/ngx",
+  "version": "1.0.0-alpha.16",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
     "develop": "ng build --watch",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint": "ng lint"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~10.2.2",
     "@angular/common": "~10.2.2",
@@ -20,14 +17,12 @@
     "@angular/platform-browser": "~10.2.2",
     "@angular/platform-browser-dynamic": "~10.2.2",
     "@angular/router": "~10.2.2",
-    "@types/react": "^16.9.55",
-    "polygloat": "file:../../../polygloat-js",
-    "react": "^17.0.1",
     "rxjs": "~6.6.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
+    "@polygloat/core": "^1.0.0-alpha.16",
     "@angular-devkit/build-angular": "~0.1002.0",
     "@angular-devkit/build-ng-packagr": "~0.1002.0",
     "@angular/cli": "~10.2.0",
@@ -49,5 +44,8 @@
     "ts-node": "~9.0.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.5"
+  },
+  "publishConfig": {
+    "directory": "./dist/ngx-polygloat"
   }
 }

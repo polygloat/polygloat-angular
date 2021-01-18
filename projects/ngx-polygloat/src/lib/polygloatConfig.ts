@@ -1,3 +1,3 @@
-import {PolygloatConfig} from "polygloat";
+import {PolygloatConfig} from "@polygloat/core";
 
 export {PolygloatConfig}

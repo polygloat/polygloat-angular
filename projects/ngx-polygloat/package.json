@@ -1,9 +1,5 @@
 {
-  "name": "ngx-polygloat",
-  "description": "Angular implementation of polygloat translation system",
-  "version": "1.0.0-alpha.0",
-  "dependencies": {
-    "tslib": "^2.0.0",
-    "polygloat": "^1.0.0-alpha.2"
-  }
+  "name": "@polygloat/ngx",
+  "description": "Angular implementation of polygloat translation framework",
+  "version": "1.0.0-alpha.16"
 }

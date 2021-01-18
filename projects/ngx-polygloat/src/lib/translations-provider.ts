@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
-import {PolygloatConfig} from "polygloat";
 import {TranslateService} from "./translate.service";
+import {PolygloatConfig} from "@polygloat/core";
 
 @Injectable()
 export class TranslationsProvider {
